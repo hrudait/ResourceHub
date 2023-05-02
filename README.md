@@ -6,6 +6,6 @@ That is why the filenames and functions seem random.
 Used:
 MongoDB
 ExpressJS
-NodeJS
+NodeJS 
 ReactJS
 CORS
