@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <form action="/api/v1/restaurants/add">
+    <label for="class">Class:</label><br>
+    <select name="class" id='class' required>
+        <option value='ushistory'>U.S. History</option>
+    </select><br>
+    <label for="title">Title:</label><br>
+    <input type="text" name="title" id ='title' required></input><br>
+    <label for="description">Description:</label><br>
+    <input name="description" type="text" id ='description' required></input><br>
+    <label for="link">Link:</label><br>
+    <input name="link" type="url" id ="link" required></input><br>
+    <label for="price">Price:</label><br>
+    <input name="price"type="number" id = 'price' required>
+    <input name="free"type="checkbox" id = "free" >
+    <br>
+    <label for="type">Type:</label><br>
+    <select name="type" id='type' required>
+        <option value='article/document'>Article or Document</option>
+        <option value='video'>Video</option>
+        <option value='image'>Image</option>
+        <option value='audio'>Audio</option>
+        <option value='textbook/book'>Textbook or Book</option>
+        <option value='download'>Download</option>
+    </select><br>
+    <input type="submit" value="Submit"></input>
+  </form>
+</html>

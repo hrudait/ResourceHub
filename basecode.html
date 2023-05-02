@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <body id="none" style="">
+    <div>
+  <div id = "filters" style="float:left;width: 20vw;margin-left:10vw;background-color:blue">
+    <h1>Sort By:</h1>
+    
+    <h2>Types of Resources</h1>
+    <h3><input id="alltypes" type="checkbox" checked onchange = "handleChange(this.id)">All</input></h3>
+    <h3><input id="audio"type="checkbox" onchange = "handleChange(this.id)">Audio</input></h3>
+    <h3><input id="video"type="checkbox"onchange = "handleChange(this.id)">Video</input></h3>
+    <h3><input id="image"type="checkbox"onchange = "handleChange(this.id)">Image</input></h3>
+    <h3><input id="article/document"type="checkbox"onchange = "handleChange(this.id)">Article/Document</input></h3>
+    <h3><input id="textbook/book"type="checkbox"onchange = "handleChange(this.id)">TextBook/Book</input></h3>
+    <h3><input id="download"type="checkbox"onchange = "handleChange(this.id)">Download</input></h3>
+    <h2>Price</h1>
+    <h3><input id="allcost"type="checkbox" checked onchange = "handleChangePrices(this.id)">All</input></h3>
+    <h3><input id="free"type="checkbox" onchange = "handleChangePrices(this.id)">Free</input></h3>
+    <h3><input id="paid"type="checkbox" onchange = "handleChangePrices(this.id)">Paid</input></h3>
+  </div>
+<div id = "root" style = "background-color:pink;float:right;margin-right:10vw;width:50vw">
+  <div style="background-color: coral;width: 49vw;overflow-wrap: break-word;margin-left:.5vw "id = "component">
+    <h1>Title: </h1>
+    <h2>Description:</h2>
+    <h2>Link: <a href="https://reactjs.org/docs/hello-world.html">https://reactjs.org/docs/hello-world.html</a></h2>
+    <div>
+      <h3 style="display:inline-block">Type: Article</h3>
+      <h3 style="display:inline-block">Date Posted: 12344</h3>
+      <h3 style="display:inline-block">Posted By: Hrudai</h3>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+    <script
+      src="https://unpkg.com/react@18/umd/react.production.min.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"
+      crossorigin
+    ></script>
+    <script src="code.js"></script>
+  </body>
+</html>
