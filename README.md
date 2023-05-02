@@ -1,6 +1,6 @@
 # ResourceHub
 
-Built this on top of code that I wrote using a tutorial to learn MERN
+Built this on top of code that I wrote using a tutorial to learn MERN /n
 That is why the filenames and functions seem random.
 
 Used:
